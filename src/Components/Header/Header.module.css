@@ -1,0 +1,55 @@
+.Header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #2b2d42;
+    align-items: center;
+    height: 4em;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    margin-right: 2em;
+    justify-content: end;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    margin-left: 1em;
+}
+
+.button {
+    height: 90%;
+    border: none;
+    border-radius:  7px;
+    background-color: #8d99ae;
+    color: white; 
+    margin-left: 1em;
+    width: 90%;
+    margin-top: .25em;
+}
+
+a {
+height: 100%;
+width: 100%;
+}
+
+.button:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+}
+
+.p {
+    color: white;
+    margin-left: 2em;
+}
+
+.img {
+    height: 90%;
+}

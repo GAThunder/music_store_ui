@@ -1,0 +1,49 @@
+.Form {
+    box-shadow: 2px 1px 2px 1px;
+    border-radius: 8px;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-top: 2em;  
+}
+
+.InnerForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 1em;
+}
+
+.FormItem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.FormItem > * {
+    margin-right: 1em;
+}
+
+.FormDescription {
+    height: 5em;
+    width: 20em;
+}
+
+.FormSubmit {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 6px;
+    background-color: #2b2d42;
+    height: 3em;
+    color: white;
+}
+
+.FormSubmit:hover {
+    cursor: pointer;
+}
+
+
